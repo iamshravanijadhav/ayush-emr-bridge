@@ -1,0 +1,58 @@
+
+{
+  "datasetId": "ayush-emr-bridge-demo-mappings",
+  "version": "0.1.1-demo",
+  "datasetType": "SYNTHETIC_DEMO_ONLY",
+  "notice": "These are synthetic examples, not official ICD-11/NAMASTE codes, terminology, or mappings. Do not use clinically.",
+  "lastReviewed": null,
+  "mappings": [
+    {
+      "mapping_id": "demo-map-001",
+      "source_system": "DEMO_MODERN_MEDICINE",
+      "source_code": "DEMO-MM-001",
+      "source_term": "Demo condition alpha",
+      "target_system": "DEMO_AYUSH",
+      "target_code": "DEMO-AY-001",
+      "target_term": "Demo traditional concept alpha",
+      "mapping_relation": "illustrative_related_concept",
+      "mapping_status": "DEMO_UNVERIFIED",
+      "source_reference": null,
+      "evidence_reference": null,
+      "verification_status": "unverified_demo",
+      "reviewer_notes": "Synthetic placeholder to demonstrate the UI only.",
+      "last_reviewed": null
+    },
+    {
+      "mapping_id": "demo-map-002",
+      "source_system": "DEMO_AYUSH",
+      "source_code": "DEMO-AY-002",
+      "source_term": "Demo traditional concept beta",
+      "target_system": "DEMO_MODERN_MEDICINE",
+      "target_code": null,
+      "target_term": null,
+      "mapping_relation": "unknown",
+      "mapping_status": "NO_MAPPING",
+      "source_reference": null,
+      "evidence_reference": null,
+      "verification_status": "unverified_demo",
+      "reviewer_notes": "Demonstrates the no-mapping state; not a clinical claim.",
+      "last_reviewed": null
+    },
+    {
+      "mapping_id": "demo-map-diabetes-001",
+      "source_system": "DEMO_MODERN_MEDICINE",
+      "source_code": null,
+      "source_term": "Type 2 Diabetes Mellitus",
+      "target_system": "DEMO_AYUSH",
+      "target_code": null,
+      "target_term": "Madhumeha",
+      "mapping_relation": "potential_association_not_equivalence",
+      "mapping_status": "DEMO_UNVERIFIED",
+      "source_reference": null,
+      "evidence_reference": null,
+      "verification_status": "unverified_demo",
+      "reviewer_notes": "Synthetic UI demonstration only. This association is not an official terminology mapping and does not establish clinical equivalence between Type 2 Diabetes Mellitus and Madhumeha.",
+      "last_reviewed": null
+    }
+  ]
+}
