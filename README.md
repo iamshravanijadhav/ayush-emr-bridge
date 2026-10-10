@@ -2,7 +2,7 @@
 
 AYUSH EMR Bridge is a basic prototype that brings Modern Medicine and AYUSH patient records into one place. It helps users view patient history and check possible terminology mappings between ICD-11 and NAMASTE concepts.
 
-Live Demo- https://ayush-emr-bridge.vercel.app/login
+Live Demo- https://ayush-emr-bridge.vercel.app/
 
 Credentials :
 Email - shravani@demo.com
